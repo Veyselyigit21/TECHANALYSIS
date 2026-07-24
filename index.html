@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ultimate Tech Guide 2026 | Kapsamlı Laptop Analizi</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        'cyber-dark': '#08080c',
+        'cyber-card': '#12121a',
+        'cyber-border': '#222233',
+        'neon-purple': '#b066ff',
+        'neon-blue': '#4d8eff',
+        'neon-green': '#2ecc71',
+        'neon-cyan': '#00d2ff',
+        'neon-pink': '#ff4d94',
+        'neon-amber': '#ffb020',
+        'apple-gray': '#e4e4e7'
+      }
+    }
+  }
+}
+</script>
+<style>
+body { font-family: 'Inter', sans-serif; background: #08080c; color: #e2e8f0; line-height: 1.6; }
+.font-orbitron { font-family: 'Orbitron', sans-serif; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #08080c; }
+::-webkit-scrollbar-thumb { background: #4d8eff; border-radius: 4px; }
+.glass-card { background: rgba(18, 18, 26, 0.7); backdrop-filter: blur(12px); border: 1px solid #222233; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+.glass-card:hover { transform: translateY(-4px); border-color: rgba(77, 142, 255, 0.4); box-shadow: 0 10px 30px -10px rgba(77, 142, 255, 0.15); }
+.score-badge { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 8px; font-weight: 900; font-family: 'Orbitron', sans-serif; font-size: 1.1rem; }
+.grid-bg { background-image: radial-gradient(rgba(77, 142, 255, 0.07) 1px, transparent 1px); background-size: 28px 28px; }
+.pro-con-list li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; font-size: 0.85rem; color: #cbd5e1; }
+.pro-con-list li i { position: absolute; left: 0; top: 0.25rem; font-size: 0.75rem; }
+.btn-category { transition: all 0.2s; }
+.btn-category.active { background: linear-gradient(135deg, #4d8eff, #b066ff); color: white; border-color: transparent; }
+</style>
+</head>
+<body class="grid-bg min-h-screen">
+
+<!-- Navbar -->
+<nav class="fixed top-0 w-full z-50 bg-cyber-dark/80 backdrop-blur-lg border-b border-cyber-border">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-3">
+<i class="fas fa-microchip text-neon-blue text-xl"></i>
+<span class="font-orbitron font-bold text-xl tracking-widest text-white">TECH<span class="text-neon-blue">ANALYSIS</span></span>
+</div>
+<div class="hidden md:flex items-center gap-6 text-sm font-medium">
+<a href="#champions" class="hover:text-neon-amber transition-colors">Şampiyonlar</a>
+<a href="#versus" class="hover:text-neon-pink transition-colors">Lig Kapışmaları</a>
+<a href="#all-devices" class="hover:text-neon-green transition-colors">İnceleme Veritabanı</a>
+</div>
+</div>
+</div>
+</nav>
+
+<!-- Hero Section -->
+<section class="pt-32 pb-16 px-4 relative">
+<div class="max-w-7xl mx-auto text-center relative z-10">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-neon-blue/10 border border-neon-blue/30 text-neon-blue text-sm font-semibold mb-6">
+<i class="fas fa-server"></i> Genişletilmiş Donanım Raporu 2026
+</div>
+<h1 class="font-orbitron text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight">
+KUSURSUZ SİSTEMİ BUL: <br>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-blue to-neon-purple">ELİT CİHAZ REHBERİ</span>
+</h1>
+<p class="text-gray-400 max-w-3xl mx-auto text-lg mb-10">
+Derleme hızları, sanal makine performansları, termal soğutma mühendisliği ve AAA oyun kapasiteleri göz önünde bulundurularak hazırlanan detaylı, tarafsız teknoloji editörü raporu.
+</p>
+</div>
+</section>
+
+<!-- Şampiyonlar -->
+<section id="champions" class="py-16 px-4">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-center gap-3 mb-8">
+<i class="fas fa-trophy text-2xl text-neon-amber"></i>
+<h2 class="font-orbitron text-2xl md:text-3xl font-bold text-white">KATEGORİ ŞAMPİYONLARI</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+<!-- En Güçlü Ekran Kartı (GPU) -->
+<div class="glass-card rounded-xl p-6 border-t-4 border-neon-purple relative">
+<div class="text-neon-purple text-xs font-bold uppercase mb-3 flex items-center gap-2"><i class="fas fa-vr-cardboard"></i> En Güçlü Grafik (GPU)</div>
+<h3 class="font-orbitron font-bold text-lg text-white mb-1">MSI Vector 16 HX AI</h3>
+<p class="text-sm text-gray-400 mb-4">RTX 5070 Ti (140W)</p>
+<p class="text-xs text-gray-300">Listedeki en yüksek grafik işleme gücü. 140W TGP ile Detroit: Become Human gibi sinematik detaylara sahip oyunlarda ekran kartı limitlerini sonuna kadar kullanır.</p>
+</div>
+
+<!-- En İyi Soğutma ve Malzeme -->
+<div class="glass-card rounded-xl p-6 border-t-4 border-neon-cyan relative">
+<div class="text-neon-cyan text-xs font-bold uppercase mb-3 flex items-center gap-2"><i class="fas fa-snowflake"></i> En İyi Soğutma & Kasa</div>
+<h3 class="font-orbitron font-bold text-lg text-white mb-1">Lenovo Legion Pro 5</h3>
+<p class="text-sm text-gray-400 mb-4">Legion Coldfront 5.0</p>
+<p class="text-xs text-gray-300">Alüminyum kasa kalitesi ve devasa termal bloğu ile saatlerce süren ağır veri tabanı (SQL) yük testlerinde bile klavyeyi serin tutar.</p>
+</div>
+
+<!-- En Güçlü İşlemci (CPU) -->
+<div class="glass-card rounded-xl p-6 border-t-4 border-neon-pink relative">
+<div class="text-neon-pink text-xs font-bold uppercase mb-3 flex items-center gap-2"><i class="fas fa-microchip"></i> En Güçlü İşlemci (CPU)</div>
+<h3 class="font-orbitron font-bold text-lg text-white mb-1">HP OMEN 16 (AMD)</h3>
+<p class="text-sm text-gray-400 mb-4">Ryzen 9 8940HX (16C/32T)</p>
+<p class="text-xs text-gray-300">Otomatik web zafiyet tarama araçları çalıştırırken veya C#, C++ projeleri derlerken muazzam çoklu çekirdek gücüyle rakiplerini geride bırakır.</p>
+</div>
+
+<!-- Apple / Geliştirici Lideri -->
+<div class="glass-card rounded-xl p-6 border-t-4 border-apple-gray relative">
+<div class="text-apple-gray text-xs font-bold uppercase mb-3 flex items-center gap-2"><i class="fab fa-apple"></i> İş İstasyonu Lideri</div>
+<h3 class="font-orbitron font-bold text-lg text-white mb-1">MacBook Pro 14"</h3>
+<p class="text-sm text-gray-400 mb-4">M5 Pro İşlemci</p>
+<p class="text-xs text-gray-300">Siber güvenlik uzmanları (Red Team / Blue Team) için Unix tabanlı kusursuz stabilite. Pildeyken performans düşüşü yaşatmayan rakipsiz mimari.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Kapışmalar (Versus) -->
+<section id="versus" class="py-16 px-4 bg-cyber-card/40">
+<div class="max-w-7xl mx-auto">
+<div class="flex items-center gap-3 mb-8">
+<i class="fas fa-fist-raised text-2xl text-neon-pink"></i>
+<h2 class="font-orbitron text-2xl md:text-3xl font-bold text-white">LİG KAPIŞMALARI</h2>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+<!-- WINDOWS VS WINDOWS: Zirve -->
+<div class="glass-card rounded-xl p-6">
+<div class="flex justify-between items-center mb-6">
+<div class="w-2/5 text-center"><h4 class="font-bold text-white text-sm"><i class="fab fa-windows text-blue-500 mr-1"></i> MSI Vector 16</h4><p class="text-xs text-neon-amber">~109.000 TL</p></div>
+<div class="w-1/5 text-center font-orbitron font-black text-2xl text-cyber-border">VS</div>
+<div class="w-2/5 text-center"><h4 class="font-bold text-white text-sm"><i class="fab fa-windows text-blue-500 mr-1"></i> Legion Pro 5</h4><p class="text-xs text-neon-cyan">~95.000 TL</p></div>
+</div>
+<div class="bg-cyber-dark/50 rounded p-4 text-sm text-gray-300">
+<p><strong class="text-white">Windows Ligi Analizi:</strong> MSI Vector, 140W RTX 5070 Ti ile salt grafik gücünde çok daha üstün. Legion Pro 5'in kasa mühendisliği premium hissettirse de, 95K bütçede RTX 5060 almak darboğaz yaratır. AAA oyunları ultra detaylarda oynamak ve ağır render almak isteniyorsa fiyat farkına rağmen MSI Vector donanımsal olarak çok daha mantıklı bir yatırım.</p>
+</div>
+</div>
+
+<!-- MAC VS MAC: Ekosistem -->
+<div class="glass-card rounded-xl p-6">
+<div class="flex justify-between items-center mb-6">
+<div class="w-2/5 text-center"><h4 class="font-bold text-white text-sm"><i class="fab fa-apple text-apple-gray mr-1"></i> MacBook Pro 14"</h4><p class="text-xs text-apple-gray">M5 Pro (18GB)</p></div>
+<div class="w-1/5 text-center font-orbitron font-black text-2xl text-cyber-border">VS</div>
+<div class="w-2/5 text-center"><h4 class="font-bold text-white text-sm"><i class="fab fa-apple text-apple-gray mr-1"></i> Mac Mini M5 Pro</h4><p class="text-xs text-apple-gray">M5 Pro (24GB)</p></div>
+</div>
+<div class="bg-cyber-dark/50 rounded p-4 text-sm text-gray-300">
+<p><strong class="text-white">Apple Ligi Analizi:</strong> MacBook Pro muazzam bir XDR ekran ve taşınabilirlik sunuyor. Ancak cihazın sadece masada kullanılacağı senaryolarda, Mac Mini çok daha akıllıca. Mac Mini'nin 24GB RAM'i sayesinde arka planda birden fazla Kali Linux sanal makinesi çalıştırıp, aynı anda Go diliyle kod derlemek çok daha rahat olacaktır. Taşınabilirlik şart değilse kazanan Mac Mini.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Tüm Cihazlar -->
+<section id="all-devices" class="py-16 px-4">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-10">
+<h2 class="font-orbitron text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+<i class="fas fa-database text-neon-green"></i> İNCELEME VERİTABANI
+</h2>
+<div class="flex gap-2">
+<!-- Sadece Windows ve Apple filtreleri bırakıldı -->
+<button onclick="filterDevices('windows')" class="btn-category active px-5 py-2 rounded-lg bg-cyber-card border border-cyber-border text-sm font-semibold flex items-center gap-2"><i class="fab fa-windows"></i> Windows PC'ler</button>
+<button onclick="filterDevices('apple')" class="btn-category px-5 py-2 rounded-lg bg-cyber-card border border-cyber-border text-sm font-semibold flex items-center gap-2"><i class="fab fa-apple"></i> Apple Mac'ler</button>
+</div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="device-container">
+
+<!-- LENOVO LOQ 15AHP10 (Özel İstek Model) -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Lenovo LOQ 15AHP10</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen 7 250 | RTX 5060 100W | <span class="text-neon-green font-bold">32GB RAM</span> | 1TB SSD | 15.6" FHD 144Hz</p>
+</div>
+<div class="score-badge bg-neon-green/20 text-neon-green border border-neon-green/40">9.4</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Fabrika çıkışı 32GB RAM ile gelmesi, sanal laboratuvar ortamları (VM) kurmak ve SQL sorguları çalıştırmak için devasa bir avantaj.</li>
+<li><i class="fas fa-check text-neon-green"></i>Fiyat/Performans eğrisinde 1TB SSD ve bu işlemciyle rakipsiz.</li>
+<li><i class="fas fa-check text-neon-green"></i>Soğutma bloğu (Legion DNA'sı) oldukça başarılı.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>RTX 5060 grafik kartı 115W yerine 100W limitli (yaklaşık %8-10 FPS kaybı).</li>
+<li><i class="fas fa-times text-neon-pink"></i>Kasa yoğunluklu olarak plastik.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~61.000 TL</span>
+<a href="https://www.hepsiburada.com/lenovo-loq-15ahp10-amd-ryzen-7-250-32gb-ddr5-1tb-ssd-rtx-5060-8gb-100w-15-6-inc-full-hd-144hz-ips-freedos-gaming-laptop-83jg008utrv2-p-HBCV0000C7HGFU?magaza=PREST%C4%B0JMARKET" target="_blank" class="bg-cyber-border hover:bg-neon-green/20 border border-transparent hover:border-neon-green px-4 py-2 rounded text-sm font-semibold transition-all">Hepsiburada'ya Git</a>
+</div>
+</div>
+
+<!-- MSI Vector 16 HX AI -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">MSI Vector 16 HX AI</h3>
+<p class="text-xs text-gray-400 mt-1">Ultra 7 255HX | RTX 5070 Ti 140W | 16GB RAM | 1TB SSD | 16" QHD+ 240Hz</p>
+</div>
+<div class="score-badge bg-neon-purple/20 text-neon-purple border border-neon-purple/40">8.8</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>140W RTX 5070 Ti grafik gücüyle Detroit: Become Human gibi oyunları ultra detaylarda kayıpsız oynatır.</li>
+<li><i class="fas fa-check text-neon-green"></i>QHD+ 240Hz panel muazzam akıcı.</li>
+<li><i class="fas fa-check text-neon-green"></i>Üst seviye soğutma kapasitesi.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>109.000 TL bütçede 16GB RAM düşük kalmış, çoklu işlemlerde dar boğaz yapabilir.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Adaptörü çok ağır, taşınabilirlik zayıf.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~109.000 TL</span>
+<a href="https://www.incehesap.com/msi-vector-16-hx-ai-a2xwhg-091xtr-ultra-7-255hx-16gb-1tb-ssd-12gb-rtx5070-ti-12gb-16-0-qhd-240hz-freedos-gaming-notebook-fiyati-81091/" target="_blank" class="bg-cyber-border hover:bg-neon-purple/20 border border-transparent hover:border-neon-purple px-4 py-2 rounded text-sm font-semibold transition-all">İncehesap'a Git</a>
+</div>
+</div>
+
+<!-- Lenovo Legion Pro 5 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Lenovo Legion Pro 5</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen 9 8940HX | RTX 5060 115W | 32GB RAM | 1TB SSD | 16" WQXGA 240Hz</p>
+</div>
+<div class="score-badge bg-neon-cyan/20 text-neon-cyan border border-neon-cyan/40">7.9</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Legion serisi premium alüminyum gövde ve üstün bir termal dizayn sunar.</li>
+<li><i class="fas fa-check text-neon-green"></i>32GB RAM ve güçlü işlemci ağır C++ ve C# projeleri için kusursuzdur.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>95.000 TL bütçeye RTX 5060 GPU konulması, donanımsal dengesizliktir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~95.000 TL</span>
+<a href="https://www.amazon.com.tr/dp/B0FXXGNTK3" target="_blank" class="bg-cyber-border hover:bg-neon-cyan/20 border border-transparent hover:border-neon-cyan px-4 py-2 rounded text-sm font-semibold transition-all">Amazon'a Git</a>
+</div>
+</div>
+
+<!-- ASUS ROG Strix G16 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">ASUS ROG Strix G16</h3>
+<p class="text-xs text-gray-400 mt-1">i7-14650HX | RTX 5060 115W | 16GB RAM | 512GB SSD | 16" 2.5K 240Hz</p>
+</div>
+<div class="score-badge bg-neon-blue/20 text-neon-blue border border-neon-blue/40">8.3</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Vapor Chamber soğutması sayesinde çok serin çalışır.</li>
+<li><i class="fas fa-check text-neon-green"></i>2.5K 240Hz ekran, Valorant veya League of Legends gibi rekabetçi oyunlarda devasa bir taktiksel avantaj sağlar.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>512GB SSD günümüz oyunları ve yazılım araçları için aşırı yetersiz.</li>
+<li><i class="fas fa-times text-neon-pink"></i>16GB RAM cihazın tam potansiyeline ulaşmasını engeller.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~76.000 TL</span>
+<a href="https://www.gaming.gen.tr/urun/895111/asus-rog-strix-g16-g615jmr-s5048-gaming-intel-core-i7-14650hx-geforce-rtx-5060-8gb-115w-16gb-ddr5-512gb-ssd-16-inc-2-5k-wqxga-240hz-3ms-ips-level-freedos-gaming-laptop/" target="_blank" class="bg-cyber-border hover:bg-neon-blue/20 border border-transparent hover:border-neon-blue px-4 py-2 rounded text-sm font-semibold transition-all">Gaming.Gen'e Git</a>
+</div>
+</div>
+
+<!-- ASUS TUF F16 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">ASUS TUF F16</h3>
+<p class="text-xs text-gray-400 mt-1">i7-14650HX | RTX 5060 115W | 16GB RAM | 1TB SSD | 16" 165Hz</p>
+</div>
+<div class="score-badge bg-gray-500/20 text-gray-300 border border-gray-500/40">8.0</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>MIL-STD-810H askeri seviye kasa dayanıklılığı.</li>
+<li><i class="fas fa-check text-neon-green"></i>1TB SSD depolama ile gelmesi fiyatına göre büyük avantaj.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Orijinal konfigürasyonlarda sıklıkla tek kanal (1x16GB) RAM bulunur, performansı baltalar.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Ekran renk doğruluğu ve parlaklığı Strix modelinin gerisindedir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~77.000 TL</span>
+<a href="https://www.n11.com/urun/asus-tuf-f16-fx608jmr-rv024-i7-14650hx-16-gb-1-tb-ssd-rtx-5060-16-free-dos-dizustu-bilgisayar-86160810" target="_blank" class="bg-cyber-border hover:bg-gray-500/20 border border-transparent hover:border-gray-500 px-4 py-2 rounded text-sm font-semibold transition-all">N11'e Git</a>
+</div>
+</div>
+
+<!-- HP OMEN 16 Intel -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">HP OMEN 16 (Intel)</h3>
+<p class="text-xs text-gray-400 mt-1">Ultra 9 285H | RTX 5060 | 32GB RAM | 1TB SSD | 16" 165Hz</p>
+</div>
+<div class="score-badge bg-gray-500/20 text-gray-300 border border-gray-500/40">8.2</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Ultra 9 işlemci güç tüketimi ve termal verimlilik konusunda başarılı.</li>
+<li><i class="fas fa-check text-neon-green"></i>Fabrika çıkışı 32GB RAM olması büyük rahatlık.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Çok çekirdek performansında (derleme/render) AMD versiyonunun gerisinde kalır.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Kasa malzemesi tamamen sert ABS plastik.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~75.500 TL</span>
+<a href="https://www.hepsiburada.com/hp-omen-16-an0000nt-intel-core-ultra-9-285h-32gb-ddr5-1tb-ssd-rtx5060-8gb-gddr7-16-inc-2k-165hz-3ms-ips-freedos-gaming-laptop-bq3z2ea-pm-HBC00009UBI7X" target="_blank" class="bg-cyber-border hover:bg-gray-500/20 border border-transparent hover:border-gray-500 px-4 py-2 rounded text-sm font-semibold transition-all">Hepsiburada'ya Git</a>
+</div>
+</div>
+
+<!-- HP OMEN 16 AMD -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">HP OMEN 16 (AMD)</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen 9 8940HX | RTX 5060 | 24GB RAM | 1TB SSD | 16" 2K 144Hz</p>
+</div>
+<div class="score-badge bg-neon-green/20 text-neon-green border border-neon-green/40">8.9</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Ryzen 9'un 64MB L3 önbelleği sayesinde işlemci odaklı araçlar çalıştırırken devasa hız kazanımı.</li>
+<li><i class="fas fa-check text-neon-green"></i>Fiyatına oranla donanım paketi çok güçlü.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Plastik kasa yapısı.</li>
+<li><i class="fas fa-times text-neon-pink"></i>İşlemci mimarisi gereği oldukça agresif ısınma değerlerine çıkabiliyor.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~69.000 TL</span>
+<a href="https://www.hepsiburada.com/hp-omen-16-ap0029nt-c3yn8ea-8gb-rtx5060-amd-ryzen-9-8940hx-24gb-ram-1tb-ssd-16-inc-2k-144hz-tasinabilir-bilgasayar-p-HBCV0000CUXI5B" target="_blank" class="bg-cyber-border hover:bg-neon-green/20 border border-transparent hover:border-neon-green px-4 py-2 rounded text-sm font-semibold transition-all">Hepsiburada'ya Git</a>
+</div>
+</div>
+
+<!-- HP OMEN 17 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">HP Omen 17</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen AI 9 365 | RTX 5070 | 32GB RAM | 1TB SSD | 17.3" FHD</p>
+</div>
+<div class="score-badge bg-neon-amber/20 text-neon-amber border border-neon-amber/40">7.2</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>80K bandında RTX 5070 grafik kartı bulmak nadirdir.</li>
+<li><i class="fas fa-check text-neon-green"></i>Yeni nesil yapay zeka destekli Ryzen AI işlemcisi verimli.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>17.3 inç devasa bir ekranda sadece 1080p (FHD) çözünürlük kullanmak görüntüyü kalitesizleştirir.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Kasa oldukça büyük ve ağır, kampüse taşımak işkence olabilir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~80.000 TL</span>
+<a href="https://www.amazon.com.tr/dp/B0FMYWRQL2" target="_blank" class="bg-cyber-border hover:bg-neon-amber/20 border border-transparent hover:border-neon-amber px-4 py-2 rounded text-sm font-semibold transition-all">Amazon'a Git</a>
+</div>
+</div>
+
+<!-- Game Garaj Slayer5 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Game Garaj Slayer5</h3>
+<p class="text-xs text-gray-400 mt-1">Ultra 7 255HX | RTX 5070 115W | 32GB RAM | 1TB SSD | 16" 2K 240Hz</p>
+</div>
+<div class="score-badge bg-neon-purple/20 text-neon-purple border border-neon-purple/40">8.5</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Tongfang/MSI üretimi fason kasası donanım limitlerini sonuna kadar zorlar.</li>
+<li><i class="fas fa-check text-neon-green"></i>RTX 5070 ekran kartı sayesinde ağır grafikli oyunlarda tam performans.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Alt marka serisi olduğundan BIOS/Yazılım güncelleme desteği soru işareti.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Fan sesi yük altında oldukça rahatsız edici olabilir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~84.000 TL</span>
+<a href="https://www.hepsiburada.com/game-garaj-slayer5-7-5070-c6-ultra-7-255hx-32gb-ram-1tb-ssd-rtx5070-8gb-115w-16-2k-qhd-240hz-ips-freedos-gaming-laptop-p-HBCV0000CS93CG" target="_blank" class="bg-cyber-border hover:bg-neon-purple/20 border border-transparent hover:border-neon-purple px-4 py-2 rounded text-sm font-semibold transition-all">Hepsiburada'ya Git</a>
+</div>
+</div>
+
+<!-- Game Garaj Slayer R9T -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Game Garaj Slayer R9T</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen 9 8945HX | RTX 5060 | 16GB RAM | 1TB SSD | 16"</p>
+</div>
+<div class="score-badge bg-gray-500/20 text-gray-300 border border-gray-500/40">7.0</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>İşlemci bazlı gücü bütçesine göre inanılmaz yüksek.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Sadece 16GB RAM barındırması, güçlü işlemcinin potansiyelini kısıtlar.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Soğutma bloğu Ryzen 9'u zaptetmekte zorlanabilir, termal throttling (hız kesme) yaşanabilir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~69.000 TL</span>
+<a href="https://www.hepsiburada.com/game-garaj-slayer-r9t-5060-c7-amd-ryzen-9-8945hx-16gb-1tb-ssd-rtx-5060-freedos-16-tasinabilir-bilgisayar-p-HBCV0000AQIKKO" target="_blank" class="bg-cyber-border hover:bg-gray-500/20 border border-transparent hover:border-gray-500 px-4 py-2 rounded text-sm font-semibold transition-all">Hepsiburada'ya Git</a>
+</div>
+</div>
+
+<!-- Monster Tulpar T7 V26.2 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Monster Tulpar T7 V26.2</h3>
+<p class="text-xs text-gray-400 mt-1">17.3" Oyun Bilgisayarı Modelleri</p>
+</div>
+<div class="score-badge bg-neon-pink/20 text-neon-pink border border-neon-pink/40">5.5</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Ömür boyu ücretsiz termal macun ve bakım hizmeti.</li>
+<li><i class="fas fa-check text-neon-green"></i>Geniş bayi ve yerel servis ağı.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Termal mimarisi zayıf, aşırı ısınma kronik sorunu ile biliniyor.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Kasa ve menteşe esnemeleri sık görülüyor, donanım ömrü rakiplerine göre daha kısa kalabiliyor.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~70.000 TL</span>
+<a href="https://www.monsternotebook.com.tr/tulpar/monster-tulpar-t7-v26-2/" target="_blank" class="bg-cyber-border hover:bg-neon-pink/20 border border-transparent hover:border-neon-pink px-4 py-2 rounded text-sm font-semibold transition-all">Monster'a Git</a>
+</div>
+</div>
+
+<!-- Acer Nitro V 16S AI -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Acer Nitro V 16S AI</h3>
+<p class="text-xs text-gray-400 mt-1">Ryzen 7 260 | RTX 5060 | 16GB RAM | 512GB SSD | 16" WQXGA</p>
+</div>
+<div class="score-badge bg-gray-500/20 text-gray-300 border border-gray-500/40">7.6</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Düşük bütçede WQXGA (2.5K) çözünürlük sunması avantajlı.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Nitro serisinin fanları uçak motoru gibi çalışmasıyla bilinir.</li>
+<li><i class="fas fa-times text-neon-pink"></i>512GB SSD oldukça kısıtlayıcıdır.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~60.000 TL</span>
+<a href="#" class="bg-cyber-dark text-gray-500 border border-cyber-border px-4 py-2 rounded text-sm font-semibold cursor-not-allowed">Stok Bekleniyor</a>
+</div>
+</div>
+
+<!-- Gigabyte Gaming A16 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card" data-os="windows">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Gigabyte Gaming A16</h3>
+<p class="text-xs text-gray-400 mt-1">i7-13620H | RTX 5070 | 32GB RAM | 1TB SSD | 16" FHD</p>
+</div>
+<div class="score-badge bg-gray-500/20 text-gray-300 border border-gray-500/40">7.5</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>RTX 5070 kartına daha ucuz fiyattan erişim imkanı sağlar.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Yetkili servis ağı rakiplerine göre oldukça zayıf.</li>
+<li><i class="fas fa-times text-neon-pink"></i>GPU TGP (Watt) değerleri genellikle kısıtlanmıştır, saf 5070 performansı vermeyebilir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~70.000 TL</span>
+<a href="#" class="bg-cyber-dark text-gray-500 border border-cyber-border px-4 py-2 rounded text-sm font-semibold cursor-not-allowed">Stok Bekleniyor</a>
+</div>
+</div>
+
+<!-- APPLE: MacBook Pro 14 -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card hidden" data-os="apple">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">MacBook Pro 14"</h3>
+<p class="text-xs text-gray-400 mt-1">M5 Pro | 18GB RAM | 512GB SSD | 14.2" XDR Ekran</p>
+</div>
+<div class="score-badge bg-apple-gray/20 text-apple-gray border border-apple-gray/40">9.5</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>Unix çekirdeği sayesinde siber güvenlik (Red Team / Blue Team) araçları yerel hızda ve sorunsuz çalışır.</li>
+<li><i class="fas fa-check text-neon-green"></i>Pil ömrü rakipsizdir, şarj aleti taşımaya gerek bırakmaz.</li>
+<li><i class="fas fa-check text-neon-green"></i>Hoparlör, touchpad ve ekran üçlüsü endüstri standartlarını belirler.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Anti-cheat gerektiren e-spor oyunlarını (Valorant gibi) desteklemez.</li>
+<li><i class="fas fa-times text-neon-pink"></i>Donanımlar anakarta lehimlidir, RAM veya SSD sonradan kesinlikle artırılamaz.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~83.000 TL</span>
+<a href="https://www.pt.com.tr/" target="_blank" class="bg-cyber-border hover:bg-apple-gray/20 border border-transparent hover:border-apple-gray px-4 py-2 rounded text-sm font-semibold transition-all">PT.com.tr'ye Git</a>
+</div>
+</div>
+
+<!-- APPLE: MacBook Air 15" -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card hidden" data-os="apple">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">MacBook Air 15"</h3>
+<p class="text-xs text-gray-400 mt-1">M5 | 24GB RAM | 512GB SSD | 15.3" Liquid Retina</p>
+</div>
+<div class="score-badge bg-apple-gray/20 text-apple-gray border border-apple-gray/40">9.1</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>24GB RAM ile birden fazla geliştirme ortamını ve Docker container'ını aynı anda kasmadan çalıştırır.</li>
+<li><i class="fas fa-check text-neon-green"></i>Sıfır fan sesi (tamamen sessiz yapı) ve inanılmaz hafiflik (1.51 kg).</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Aktif soğutması olmadığı için aralıksız uzun süren ağır render işlemlerinde hız kesebilir (throttling).</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~65.000 TL</span>
+<a href="https://www.pt.com.tr/" target="_blank" class="bg-cyber-border hover:bg-apple-gray/20 border border-transparent hover:border-apple-gray px-4 py-2 rounded text-sm font-semibold transition-all">PT.com.tr'ye Git</a>
+</div>
+</div>
+
+<!-- APPLE: Mac Mini M5 Pro -->
+<div class="glass-card rounded-xl p-6 flex flex-col device-card hidden" data-os="apple">
+<div class="flex justify-between items-start mb-4 border-b border-cyber-border pb-4">
+<div>
+<h3 class="font-orbitron font-bold text-xl text-white">Mac Mini</h3>
+<p class="text-xs text-gray-400 mt-1">M5 Pro | 24GB RAM | 512GB SSD | Masaüstü İş İstasyonu</p>
+</div>
+<div class="score-badge bg-apple-gray/20 text-apple-gray border border-apple-gray/40">9.3</div>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-4 flex-grow">
+<div>
+<h4 class="text-neon-green font-bold text-sm mb-2"><i class="fas fa-plus"></i> Objektif Artılar</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-check text-neon-green"></i>MacBook Pro gücüne masaüstü formunda çok daha uygun fiyata erişim sağlar.</li>
+<li><i class="fas fa-check text-neon-green"></i>Geniş soğutma alanı sayesinde saatlerce süren kod derleme işlemlerinde asla performans kaybetmez.</li>
+</ul>
+</div>
+<div>
+<h4 class="text-neon-pink font-bold text-sm mb-2"><i class="fas fa-minus"></i> Objektif Eksiler</h4>
+<ul class="pro-con-list">
+<li><i class="fas fa-times text-neon-pink"></i>Taşınabilirlik sıfırdır, harici monitör ve klavye masrafı gerektirir.</li>
+</ul>
+</div>
+</div>
+<div class="mt-auto flex items-center justify-between pt-4 border-t border-cyber-border">
+<span class="font-orbitron font-bold text-xl text-white">~58.000 TL</span>
+<a href="https://www.pt.com.tr/mac-mini" target="_blank" class="bg-cyber-border hover:bg-apple-gray/20 border border-transparent hover:border-apple-gray px-4 py-2 rounded text-sm font-semibold transition-all">PT.com.tr'ye Git</a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 px-4 text-center border-t border-cyber-border">
+<p class="text-xs text-gray-500 mb-2">
+© 2026 TechAnalysis Platformu | Bütün puanlamalar analitik performans testleri, termal başarım eğrileri ve profesyonel yazılım geliştirme senaryoları gözetilerek nesnel olarak hesaplanmıştır.
+</p>
+</footer>
+
+<script>
+// Başlangıçta sadece Windows'u gösteriyoruz, Mac'ler gizli geliyor.
+function filterDevices(os) {
+    const cards = document.querySelectorAll('.device-card');
+    const btns = document.querySelectorAll('.btn-category');
+
+    btns.forEach(b => b.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+
+    cards.forEach(card => {
+        if (card.getAttribute('data-os') === os) {
+            card.classList.remove('hidden');
+            card.style.display = 'flex';
+        } else {
+            card.classList.add('hidden');
+            card.style.display = 'none';
+        }
+    });
+}
+</script>
+</body>
+</html>
